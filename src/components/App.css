@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.app article {
+  margin-left: 5rem;
+  max-width: 600px;
+}
+
+.app article h1 {
+  margin: 0;
+}
+
+article .buttons {
+  display: flex;
+  margin-top: 1rem;
+}
+
+article .buttons > *:not(:last-child) {
+  margin-right: 0.5rem;
+}

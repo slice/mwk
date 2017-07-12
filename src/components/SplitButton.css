@@ -1,0 +1,41 @@
+.split-button {
+  color: #fff;
+  background: #23272a;
+
+  border: 0;
+  border-radius: 0.15rem;
+
+  font-family: inherit;
+  font-size: 0.8em;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-button .left, .split-button .right {
+  padding: 1rem 2rem;
+  transition: all 150ms;
+  cursor: pointer;
+}
+
+.split-button .left:hover, .split-button .right:hover {
+  transform: translateY(-0.2em);
+}
+
+.split-button .left:active, .split-button .right:active {
+  background: #1e2224;
+}
+
+.split-button .split {
+  height: 100%;
+  border-right: solid 2px #2c2f33;
+}
+
+.split-button button {
+  background: 0;
+  color: inherit;
+  border: none;
+  font: inherit;
+}

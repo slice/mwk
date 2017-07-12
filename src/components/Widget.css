@@ -1,0 +1,51 @@
+.widget {
+  font-size: 1rem;
+  border-bottom-left-radius: 0.15rem;
+  border-bottom-right-radius: 0.15rem;
+}
+
+.widget .contents {
+  max-height: 350px;
+  background: #23272a;
+  padding: 1rem;
+  overflow: auto;
+}
+
+.widget .title {
+  background: #99aab5;
+  border-top-left-radius: 0.15rem;
+  border-top-right-radius: 0.15rem;
+  padding: 0.5rem 0.7rem;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.widget .member {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin: 0.15rem 0;
+}
+
+.widget .member:first-child {
+  margin-top: 0;
+}
+
+.widget .member .name .discrim {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.widget .member .name .bot-tag {
+  margin-left: 0.5rem;
+  background-color: #7289da;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.15rem;
+}
+
+.widget .member .avatar {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5rem;
+  border-radius: 100%;
+}
