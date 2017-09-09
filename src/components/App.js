@@ -22,7 +22,7 @@ class App extends Component {
           <small>We are not affiliated with Discord in any way.</small>
 
           <div className='buttons'>
-            <Button url='https://discord.gg/dA9vmRv'>Join the Discord Server</Button>
+            <Button url='https://discord.gg/yWqJ3D9'>Join the Discord Server</Button>
             <SplitButton left={left} right={right}/>
           </div>
         </article>
