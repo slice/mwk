@@ -7,7 +7,7 @@ import SplitButton from './SplitButton';
 
 class App extends Component {
   render() {
-    const left = ['https://git.memework.org', 'Gogs'];
+    const left = ['https://git.memework.org', 'GitLab'];
     const right = ['https://github.com/memework', 'GitHub'];
     return (
       <div className='app'>
